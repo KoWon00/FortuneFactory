@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fortune Factory</title>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--linking css file-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d9a961734e.js" crossorigin="anonymous"></script>   
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <!-- header secton -->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fa-solid fa-clover"></i> Fortune Factory </a>
+        
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#suggest">suggest</a>
+            <a href="#share">share</a>
+            <a href="#sort">sort</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="검색..">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <form action="#" class="login-form">
+            <h3>Login</h3>
+            <input type="email" placeholder="이메일" class="box">
+            <input type="password" placeholder="비밀번호" class="box">
+
+            <p><a href="#">비밀번호 찾기</a></p>
+            <p><a href="#">회원가입</a></p>
+
+            <input type="submit" value="로그인" class="btn">
+        </form>
+    </header>
+    <!-- header section -->
+
+    <!-- banner section -->
+    <section class="home" id="home">
+        <div class="box-container">
+            <div class="box">
+                <div class="content">
+                    <h3><span>What is your Star like?</span></h3>
+                    <p>
+                        <br>
+                        “사람들에 따라 별들은 서로 다른 별을 갖고 있지. <br>여행하는 사람에겐 별은 길잡이지, 또 어떤 사람들에겐 그저 조그만 빛일 뿐이고, 학자들에게는 연구해야 할 대상이고, 내가 만난 한 사업가에게 별은 황금이었어. <br>하지만 그런 별들은 모두 침묵을 지키고 있어. <br>아저씬 어느 누구도 갖지 못한 별들을 갖게 될 거야.”
+                        <br><br>
+                        "그게 무슨 말이야?"
+                        <br><br>
+                        "밤에 하늘을 바라볼 때면 내가 그 별들 중의 하나에 살고 있을 테니까. <br>내가 그 별들 중의 하나에서 웃고 있을 테니까, 모든 별들이 다 아저씨에겐 웃고 있는 듯이 보일 거야. 아저씬 웃을 줄 아는 별들을 가지게 되는 거야!"
+                        <br><br>
+                    </p>
+                    <h4> - 생텍쥐페리의 ‘어린 왕자’ 중에서 - </h4>
+                </div>
+        </div>
+    </section>
+    <!-- banner section -->
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <h1 class="heading"> <span>About</span> </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="image/fortune-cookie.png" 
+                style="width:120px; height:120px;">
+                <h3>Advice</h3>
+                <p>
+                    우리가 가진 불행을 행운으로 바꿀순 없을까? <br>
+                </p>
+                <a href="advice.html" class="btn">들어가기</a>
+            </div>
+
+            <div class="box">
+                <img src="image/share.png" 
+                style="width:120px; height:120px;">
+                <h3>Upload</h3>
+                <p>
+                    다른 사람과 공유하기
+                </p>
+                <a href="upload.html" class="btn">들어가기</a>
+            </div>
+
+            <div class="box">
+                <img src="image/tarot.png" 
+                style="width:120px; height:120px;">
+                <h3>Sort</h3>
+                <p>
+                    행운의 타로
+                </p>
+                <a href="index.html #sort" class="btn">들어가기</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section -->
+
+    <!-- suggest section -->
+    <section class="suggest" id="suggest">
+        <h1 class="heading"><span>Suggest</span></h1>
+    </section>
+    <section class="suggest_music" id="suggest_music">
+        <h1 class="heading">suggest-Music</h1>
+        <div class="swiper suggest-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/music2.jpg" style="width:170px; height:200px;">
+                    <h1>시작</h1>
+                    <a href="https://www.youtube.com/watch?v=hWYM5QEt0Fg" class="btn">들어보기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/music1.jpg" style="width:170px; height:200px;">
+                    <h1>길</h1>
+                    <a href="https://www.youtube.com/watch?v=yH2avtBbG6Y" class="btn">들어보기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/music3.jpg" style="width:170px; height:200px;">
+                    <h1>High Hopes</h1>
+                    <a href="https://www.youtube.com/watch?v=1eb-AK3WS6Y" class="btn">들어보기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/music4.jpg" style="width:170px; height:200px;">
+                    <h1>수고했어 오늘도</h1>
+                    <a href="https://www.youtube.com/watch?v=U3e4AOd-DzE" class="btn">들어보기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/music5.jpg" style="width:170px; height:200px;">
+                    <h1>To be Young</h1>
+                    <a href="https://www.youtube.com/watch?v=gbTTflWz4oA" class="btn">들어보기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/music6.jpg" style="width:170px; height:200px;">
+                    <h1>촛불 하나</h1>
+                    <a href="https://www.youtube.com/watch?v=wgzcssEPtX4" class="btn">들어보기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/music7.jpg" style="width:170px; height:200px;">
+                    <h1>나의 사춘기에게</h1>
+                    <a href="https://www.youtube.com/watch?v=yH2avtBbG6Y" class="btn">들어보기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/music8.jpg" style="width:170px; height:200px;">
+                    <h1>슬픔이여 이제 안녕</h1>
+                    <a href="https://www.youtube.com/watch?v=WWWhRVgEtIw" class="btn">들어보기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/music9.jpg" style="width:170px; height:200px;">
+                    <h1>흰수염고래</h1>
+                    <a href="https://www.youtube.com/watch?v=v-pjWpCSAVI" class="btn">들어보기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/music10.jpg" style="width:170px; height:200px;">
+                    <h1>Sunflower</h1>
+                    <a href="https://www.youtube.com/watch?v=kmUB6UPbZ5Q" class="btn">들어보기</a>
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <section class="suggest_music" id="suggest_music">
+        <h1 class="heading">suggest-Book</h1>
+        <div class="swiper suggest-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/book1.jpg" style="width:170px; height:200px;">
+                    <h1>무의식의 두얼굴</h1>
+                    <a href="https://product.kyobobook.co.kr/detail/S000001889962" class="btn">들어가기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/book2.jpg" style="width:170px; height:200px;">
+                    <h1>미움받을 용기</h1>
+                    <a href="https://product.kyobobook.co.kr/detail/S000001606967" class="btn">들어가기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/book3.jpg" style="width:170px; height:200px;">
+                    <h1>타인의 해석</h1>
+                    <a href="https://product.kyobobook.co.kr/detail/S000000597820" class="btn">들어가기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/book4.jpg" style="width:170px; height:200px;">
+                    <h1>심리학, 직장 생활을 도와줘</h1>
+                    <a href="https://product.kyobobook.co.kr/detail/S000200192716" class="btn">들어가기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/book5.jpg" style="width:170px; height:200px;">
+                    <h1>멀티플라이어</h1>
+                    <a href="https://product.kyobobook.co.kr/detail/S000000695854" class="btn">들어가기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/book6.jpg" style="width:170px; height:200px;">
+                    <h1>게으른 완벽주의자</h1>
+                    <a href="https://product.kyobobook.co.kr/detail/S000061586007" class="btn">들어가기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/book7.jpg" style="width:170px; height:200px;">
+                    <h1>현대 심리치료와 상담 이론</h1>
+                    <a href="hhttps://product.kyobobook.co.kr/detail/S000000984831" class="btn">들어가기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/book8.jpg" style="width:170px; height:200px;">
+                    <h1>기억의 뇌과학 </h1>
+                    <a href="https://product.kyobobook.co.kr/detail/S000000408221" class="btn">들어가기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/book9.jpg" style="width:170px; height:200px;">
+                    <h1>매일 운이 좋아지는 명상</h1>
+                    <a href="https://product.kyobobook.co.kr/detail/S000061694073" class="btn">들어가기</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/book10.jpg" style="width:170px; height:200px;">
+                    <h1>법정 스님의 무소유의 행복</h1>
+                    <a href="https://product.kyobobook.co.kr/detail/S000001774461" class="btn">들어가기</a>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <!-- suggest section -->
+
+    <!-- share section -->
+    <section class="share" id="share">
+        <h1 class="heading"><span>Share</span></h1>
+        <h1 class="heading"> Others Opinion </h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/fortune-cookie.png" style="width:120px; height:120px;">
+                    <p>다른사람의 의견</p>
+                    <h3>닉네임</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/fortune-cookie.png" style="width:120px; height:120px;">
+                    <p>다른사람의 의견</p>
+                    <h3>닉네임</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/fortune-cookie.png" style="width:120px; height:120px;">
+                    <p>다른사람의 의견</p>
+                    <h3>닉네임</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/fortune-cookie.png" style="width:120px; height:120px;">
+                    <p>다른사람의 의견</p>
+                    <h3>닉네임</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/fortune-cookie.png" style="width:120px; height:120px;">
+                    <p>다른사람의 의견</p>
+                    <h3>닉네임</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- share section -->
+
+    <!-- sort section -->
+    <section class="sort" id="sort">
+        <h1 class="heading"><span>Sort</span></h1>
+    </section>
+    <section class="suggest_music" id="suggest_music">
+        <h1 class="heading">Today's Luckey Tarot</h1>
+        <div class="swiper suggest-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/jester.png" style="width:150px; height:170px;">
+                    <h1></h1>
+                    <a href="thefool.html" class="btn">PICK</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/priestess.png" style="width:150px; height:170px;">
+                    <h1></h1>
+                    <a href="highpriestess.html" class="btn">PICK</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/queen.png" style="width:150px; height:170px;">
+                    <h1></h1>
+                    <a href="empress.html" class="btn">PICK</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/chariot.png" style="width:150px; height:170px;">
+                    <h1></h1>
+                    <a href="chariot.html" class="btn">PICK</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/hermit-crab.png" style="width:150px; height:170px;">
+                    <h1></h1>
+                    <a href="hermit.html" class="btn">PICK</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/wheel.png" style="width:150px; height:170px;">
+                    <h1></h1>
+                    <a href="wheel_of_fortune.html" class="btn">PICK</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/globe.png" style="width:150px; height:170px;">
+                    <h1></h1>
+                    <a href="theworld.html" class="btn">PICK</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/glass.png" style="width:150px; height:170px;">
+                    <h1></h1>
+                    <a href="temperance.html" class="btn">PICK</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/stars_2.png" style="width:150px; height:170px;">
+                    <h1></h1>
+                    <a href="star.html" class="btn">PICK</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/sun.png" style="width:150px; height:170px;">
+                    <h1></h1>
+                    <a href="sun.html" class="btn">PICK</a>
+                </div>   
+            </div>
+        </div>
+        <p></p>
+    </section>
+    <!-- sort section -->
+
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="js/scrpt.js"></script>
+</body>
+</html>
