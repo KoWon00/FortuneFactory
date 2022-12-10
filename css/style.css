@@ -620,3 +620,49 @@ section
         font-size: 2.5rem;
     }
 }
+
+/* share section */
+#txt {
+    -webkit-appearance: none;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+    border: 3px solid green;
+    color: black;
+    background: none;
+    height:300px;
+    width: 740px;
+    padding: 20px;
+    margin: 0;
+    transition: 0.3s;
+    box-shadow: inset 0 0 0 none;
+  }
+  ::-webkit-input-placeholder {
+    color: lightblue; 
+  }
+  #txt:hover {
+    color: black;
+    box-sizing: border-box;
+    border: 3px solid green;
+    background: green;
+  }
+  #btn:active {
+    border-color: green;
+    background: none;
+  }
+  .input-container {
+    display: flex;
+    margin-top: 30px;
+    padding: 0;
+    margin-left: 30px;
+  }
+  #dis {
+    margin: 50px;
+    display: block;
+    text-align: justify;
+   
+    width: 450px;
+    color: black;
+  }
